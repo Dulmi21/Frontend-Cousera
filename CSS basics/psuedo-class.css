@@ -1,0 +1,49 @@
+/*
+Exaample psuedo class selectors
+
+link
+visited
+hover
+active
+nth-child
+
+
+*/
+
+
+selector:psuedo-class{
+
+    color: black;
+}
+
+a:link{
+
+}
+
+a:visited{
+
+    /* decorations after a link is clicked*/
+
+}
+
+a:hover{
+
+}
+
+a:active{
+    /*after pressing the mousenbutton, but has not released it*/
+}
+
+header li:nth-child(3){
+    color: #000;
+    /*style the 3 rd li element under header*/
+}
+
+header li:nth-child(odd){
+    color: #000;
+    /*style the odd  li elements under header*/
+}
+
+header div:nth-child(2):hover{
+    color: #000;
+}

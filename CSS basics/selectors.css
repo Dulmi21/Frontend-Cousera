@@ -1,0 +1,71 @@
+
+h1{
+    /*applies to all h1 tags in html file*/
+}
+.a{
+
+}
+
+#b{
+
+}
+
+.new{
+
+}
+
+.a, div{
+    /* applies to all div tags and 'a' tag in html*/
+
+}
+
+p.big{
+    /*Target every p element that has a class 
+    selector named 'big'*/
+
+    /*For example, this does not affect div elements that has
+    class name 'big'*/
+
+}
+
+article>p{
+    color: #000;
+
+    /*child selector
+
+     
+    
+    Targets every p eoement that is a direct child of 
+    an artical
+
+    <article>
+        <p>........ </p>
+
+    </article>
+    
+    
+    */   
+
+
+}
+
+article p{
+    color: #000;
+
+    /*Targets any p element that is inside
+    (at any level) of article*/
+
+}
+
+article > .colored{
+
+}
+
+
+
+.new p{
+
+    /*applies to any p element inside an elemnt
+    with class="new'
+    */
+}
