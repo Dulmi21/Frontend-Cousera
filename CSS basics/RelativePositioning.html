@@ -1,0 +1,95 @@
+<!--
+
+    Relative- relative offsset FROM its original position
+              Other elements act linke this element is still in its original position
+
+
+
+    Absolute- sRelative to closest ancester
+              Other elements act like this is out of the flow
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="boxOne">
+        Box One
+
+    </p>
+
+    <P class="boxTwo">
+        Box Two
+
+    </P>
+
+    <p class="boxThree">
+        Box Three
+
+    </p>
+
+    <P class="boxFour">
+        Box Four
+
+    </P>
+    
+</body>
+</html>
+
+<style>
+    p{
+        width: 160px;
+        height: 160px;
+
+    }
+    .boxOne{
+        background-color: burlywood;
+        /*Change position from its original place*/
+
+        position: relative;
+        top:30px; /*Move from top*/
+        left:30px; /*Move from left*/
+
+        /*Offset applie to things that are inside that
+        container too*/
+
+        /*
+        
+        When we use relative positioning,
+        
+        Other lements think that this element is 
+        still in its original position*/
+
+    }
+
+    .boxTwo{
+        background-color: chartreuse;
+
+        position: absolute;
+        /*Act as if box two is not in the flow*/
+
+         
+        
+
+    }
+
+    .boxThree{
+
+        background-color: blueviolet;
+        width: 50px;
+
+        height: 50px;
+
+       
+    }
+
+    .boxFour{
+        background-color: chocolate;
+    }
+
+</style>

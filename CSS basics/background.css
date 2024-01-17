@@ -1,0 +1,5 @@
+body{
+/*we can use all bcakground properties in a 
+single line*/
+    background: url() no repeat right center blue;
+}

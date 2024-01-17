@@ -1,0 +1,36 @@
+
+
+body{
+    padding:30px;
+    margin:20px;
+
+    border:3px;
+    width:30px;
+    /*width means th e width 
+    of the contsnt*/
+
+    box-sizing: border-box;
+    /*by this we can specify  the width including the border
+    of the box*/
+    /*This property does not inherit
+    
+    Which means we have to specify it in 
+    every box we neeed*/
+
+
+
+
+
+}
+
+/*STAR SELECTOR
+this is usefull to appply properties that do 
+not inherit*/
+
+*{
+    box-sizing: border-box;
+    /*Things inside border box applies to everything in html*/
+}
+
+/*Margins collapse for boxes.
+Takes the higher value of margin top and margin botta*/

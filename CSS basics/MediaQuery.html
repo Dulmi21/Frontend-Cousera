@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>The topic of the page</h1>
+
+    <p id="p1">
+        The first paragraph
+
+
+    </p>
+
+    <p id="p2">
+
+        The second paragraph
+
+
+    </p>
+    
+</body>
+</html>
+
+
+ 
+
+<style>
+    p{
+        border:1px solid black;
+        margin-bottom: 15px;
+    }
+
+    #p1{
+
+        background-color: bisque;
+
+        width:300px;
+
+        height: 300px;
+        transition: 0.5s;
+
+    }
+
+    #p2{
+        background-color: rgb(214, 149, 63);
+        width: 30px;
+        height: 30px;
+        transition: 0.5s;
+    }
+
+    /*Target large devices*/
+
+    @media (min-width:1200px){
+      
+        #p1{
+            width: 80%;
+            
+        }
+        #p2{
+            width: 150px;
+            height: 150px;
+             
+        }
+    }
+
+    @media (min-width:992px) and (max-width: 1199px){
+
+        #p1{
+            width: 50%;
+            
+        }
+        #p2{
+            width: 100px;
+            height: 100px;
+            
+        }
+
+
+    }
+
+
+/*
+<!--    Coomonly used media feature
+
+most common-
+min-width and max-width-->
+
+ @media(max-width: 767px){
+
+    p{
+        color:blue
+    }
+ }
+
+ @media
+ (min-width:800px){}
+
+ @media(orientation:portrait){}
+
+ @media screen{}
+ 
+
+ media can be connected with and operators
+
+ @media (min-width:768 px) and (max-width: 991px){
+
+ }
+
+ Or use comma instead of and
+
+ */
+
+</style>
