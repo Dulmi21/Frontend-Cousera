@@ -1,0 +1,114 @@
+h1{
+    text-align: center;
+    width: 100px;
+}
+
+ .topic{
+    
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+     
+     
+
+ }
+
+ .Chicken{
+    width: 100px;
+    background-color: brown;
+
+    margin: 0;
+    padding: 10px;
+    
+     
+
+ }
+ .Beef{
+    width: 100px;
+    background-color: rgb(42, 165, 165);
+
+    margin: 0;
+    padding: 10px;
+
+
+ }
+
+ .Sushi{
+    width: 100px;
+    background-color: rgb(155, 165, 42);
+
+    margin: 0;
+    padding: 10px;
+
+ }
+ .empty{
+    flex:1;
+ }
+ 
+.firstBox,
+.secondBox,
+.thirdBox{
+    display: inline-block;
+
+    background-color: gray;
+
+    padding: 10px;
+    margin-top: 10px;
+
+    box-sizing: border-box;
+}
+@media (min-width:992px){
+    .firstBox,
+    .secondBox,
+    .thirdBox{
+
+         width:33%;
+         
+     
+    
+    
+
+
+}
+
+}
+
+
+@media (min-width:768px) and (max-width:991px){
+    body{
+        justify-content: space-between;
+    }
+    .firstBox,
+    .secondBox{
+        width: 49.7%;
+         
+        
+        
+    
+    
+    }
+    .thirdBox{
+        width: 100%;
+    }
+
+
+}
+
+@media(max-width:767px){
+
+    .firstBox,
+.secondBox,
+.thirdBox{
+    width:100%;
+   
+     
+    
+    
+
+
+}
+
+
+
+}
