@@ -36,3 +36,10 @@ console.log(company.name);
  company["$stock value is"]="dollars";
 
  console.log(company["$stock value is"]);
+
+
+ ////////////////////////////////////////////////////////
+
+
+ 
+
