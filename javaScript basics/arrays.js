@@ -29,7 +29,7 @@ secondArray=[1,2,3,4];
 console.log(secondArray);
 
 
-//call a function that is an elemnt of te array
+//call a function that is an elemnt of the array
 
 array[3](array[0]);
 console.log(array[3].course);
@@ -49,3 +49,14 @@ for(var i=0 ; i<thirdArray.length; i++){
     console.log(thirdArray[i]);
 }
 
+
+////////////////////////////////////////////
+//Array Iteration
+
+var theArray=new Array();
+
+theArray=[1,2,3,4];
+
+for (elements in theArray){
+    console.log("Number is "+theArray[elements]);
+}
