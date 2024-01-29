@@ -14,7 +14,7 @@ multiply(5,4);
 //as functionas are objects, we can define properties
 
 multiply.version=0.001;
-console.log(multiply); //print this function as an object
+console.log(multiply);   //print this function as an object
 
 console.log(multiply.version);
 
@@ -44,4 +44,28 @@ function function3(x, operation){
 
 console.log(function3(3,function2)); //give a function as an argument
 
+ //////////////////////////////////////
+
+ function addition(x,y){
+    total= x+y;
+
+    return total
+ }
+
+ console.log(addition(3,3));
+
+
+ //creating functions
+
+
+ function createNew(value){
+    var newFunction =function(x){
+        return value*10
+    }
+    return newFunction
+ }
+
+
+ //Passing variables by values vs. by refernce
  
+
