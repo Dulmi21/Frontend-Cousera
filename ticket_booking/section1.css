@@ -34,6 +34,34 @@
      
 }
 
+.movie1:hover{
+
+    padding: 9%;
+     
+
+    .movieName{
+        color: brown;
+         
+
+    }
+    .button1{
+        
+          
+        font-weight: 900px;
+        background: linear-gradient(to top, rgb(152, 46, 201),rgb(230, 39, 230));
+    
+         
+    }
+
+ 
+
+
+     
+}
+
+
+ 
+
 .movieImage{
      
     width: 100%;
@@ -42,6 +70,8 @@
     
 
 }
+
+
 
 .movieName{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -70,7 +100,8 @@
    
     border-color: rgb(185, 81, 206);
     background: none;
-    background-color:rgb(185, 81, 206);
+   background: linear-gradient(to top, rgb(152, 46, 201),white);
+    
 
 
 
