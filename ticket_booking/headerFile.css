@@ -8,12 +8,15 @@
 
 body{
     background: linear-gradient(to right, rgb(152, 46, 201),white);
+
+    
+     
 }
 .heading{
     display: flex;
     height: fit-content;
 
-    /*background-color: rgb(185, 81, 206);*/
+    background-color: rgb(185, 81, 206);
     padding-left: 10%;
     padding-right: 10%;
 
