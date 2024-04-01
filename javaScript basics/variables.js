@@ -3,7 +3,7 @@
 var a;
 b=a;
 
-//after copying things in a to be,
+//after copying things in a to b,
 //If we change values in B , it does not affect values 
 // of a
 
